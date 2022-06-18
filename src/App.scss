@@ -1,10 +1,33 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+  color: #676666;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(103, 2, 211);
+  height: 50px;
+  a {
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #676666;
+  cursor: pointer;
+  
+}
+
+.stock-page {
+  color: #676666;
 }
 
 @media (prefers-reduced-motion: no-preference) {

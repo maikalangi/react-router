@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Nav =(props)=> {
+const Header =(props)=> {
     return (
         <nav className="nav">
             <Link to="/">
@@ -16,4 +16,4 @@ const Nav =(props)=> {
     );
 };
 
-export default Nav;
+export default Header;
